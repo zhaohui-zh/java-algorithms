@@ -1,0 +1,28 @@
+# IDEA #
+out
+target
+.idea
+*.iml
+*.class
+
+# Eclipse #
+.settings/
+.classpath
+.project
+
+# vscode #
+.vscode
+
+# vs #
+.vs
+Debug
+x64
+
+# Python #
+__pycache__
+*.pyc
+
+# node #
+.DS_Store
+node_modules/
+/dist/
