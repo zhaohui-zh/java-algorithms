@@ -2,6 +2,7 @@ package com.zh.core;
 
 
 /**
+ * 数组实现线性表
  * Created by zhaohui on 2020/3/23
  */
 public class MyArrayList<E> implements MyList<E> {
