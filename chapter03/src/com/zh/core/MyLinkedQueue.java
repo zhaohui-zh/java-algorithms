@@ -38,7 +38,11 @@ public class MyLinkedQueue<E> implements MyQueue<E> {
             return null;
         Node<E> firstNode = headPointer.next; //取队列第一个元素
         E e = firstNode.item;
-        headPointer.next = firstNode.next;
+        // 若队列只有一个元素，出队后队列为空
+        if (headPointer.next == tailPointer)
+            tailPointer = headPointer;
+        else
+            headPointer.next = firstNode.next;
         return e;
     }
 
