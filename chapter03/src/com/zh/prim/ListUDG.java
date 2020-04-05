@@ -1,4 +1,4 @@
-package com.zh.core;
+package com.zh.prim;
 
 /**
  * Prim算法计算最小生成树-基于邻接表

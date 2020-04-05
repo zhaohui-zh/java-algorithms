@@ -1,4 +1,4 @@
-package com.zh.core;
+package com.zh.prim;
 
 /**
  * Prim算法计算最生成树-基于邻接矩阵
@@ -143,7 +143,7 @@ public class MatrixUDG {
         //pG.print();   // 打印图
         //pG.DFS();     // 深度优先遍历
         //pG.BFS();     // 广度优先遍历
-        pG.prim(3);   // prim算法生成最小生成树
+        pG.prim(0);   // prim算法生成最小生成树
     }
 
 }
